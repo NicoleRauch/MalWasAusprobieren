@@ -109,6 +109,7 @@
   if (urlParts[urlParts.length - 2] === "radicals") {
     var radicalName = urlParts[urlParts.length - 1];
     showSubRadicals(allRadicals[radicalName]);
+    showSuperRadicals(radicalName);
   }
 
   function capitalizeFirstLetter(string) {
@@ -139,6 +140,41 @@
           + '<span class="character" lang="ja">' + allRadicals[subradical].symbol + '</span>'
           + '<ul>'
             + '<li>' + toName(subradical) + '</li>'
+          + '</ul>'
+        + '</a>'
+        + '</li>'
+      );
+    }).join("");
+    var sectionEndHTML = "</ul></section>";
+
+    $("#information").parent().append(sectionStartHTML + radicalHTML + sectionEndHTML);
+  }
+
+  function showSuperRadicals(radicalName) {
+    console.log("showSuperRadicals", radicalName)
+    var superRadicals = Object.keys(allRadicals).filter(function (r) {
+        var radical = allRadicals[r];
+        return (radical && radical.subradicals && radical.subradicals.includes(radicalName));
+    });
+
+    if(!superRadicals || superRadicals.length === 0) {
+      return; // nothing to show here
+    }
+
+    console.log("append")
+    var sectionStartHTML = '<section>'
+      + '<h2>Found In Radicals</h2>'
+      + '<ul class="single-character-grid">';
+
+    var radicalHTML = superRadicals.map(function(superRadical, idx){
+      console.log("superRadical ", superRadical, toName(superRadical));
+      return (
+        '<li class="radical-' + idx + ' character-item">'
+        + '<span lang="ja" class="item-badge"></span>'
+        + '<a href="/radicals/' + superRadical + '">'
+          + '<span class="character" lang="ja">' + allRadicals[superRadical].symbol + '</span>'
+          + '<ul>'
+            + '<li>' + toName(superRadical) + '</li>'
           + '</ul>'
         + '</a>'
         + '</li>'
