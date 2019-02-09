@@ -1,4 +1,5 @@
 var radicals = require("./api_radicals.json");
+var subradicalInfo = require("./subradicalInfo.js").subradicalInfo;
 var fs = require('fs');
 
 const strippedRadicals = radicals.data.map(radical => ({
@@ -7,7 +8,7 @@ const strippedRadicals = radicals.data.map(radical => ({
     slug: radical.data.slug,
     characters: radical.data.characters,
     character_images: radical.data.characters ? [] : radical.data.character_images,
-
+    subradicals: subradicalInfo[radical.data.slug] || []
 }));
 
 let orderedRadicals = strippedRadicals.sort((r1, r2) => (r1.level - r2.level) === 0 ?
