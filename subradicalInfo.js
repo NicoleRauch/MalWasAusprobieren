@@ -27,7 +27,9 @@ subradicalInfo: {
     tree: [],
     two: [],
     woman: [],
+    
     // Level 11 - 20
+    
 
 //Level 41 - 50
     cactus: [],
@@ -40,13 +42,13 @@ subradicalInfo: {
     imperial: ["moon", "stand"],
     plow: ["slide", "dirt", "tree"],
     can: ["mountain", "gun"],
-    dragon: ["stand", "rice paddy", "umbrella"],
+    dragon: ["stand", "rice-paddy", "umbrella"],
     wind: ["table", "slide", "insect"],
-    again: ["ground", "rice paddy", "treasure"],
+    again: ["ground", "rice-paddy", "treasure"],
     house: ["roof", "pig"],
     protect: ["roof", "measurement"],
     fat: ["big", "drop"],
-    favor: ["cross", "rice paddy", "heart"],
+    favor: ["cross", "rice-paddy", "heart"],
     penguin: ["fins", "towel", "winter"],
     wave: ["tsunami", "skin"],
     form: ["roof", "valley"],
@@ -56,13 +58,13 @@ subradicalInfo: {
     times: ["mouth"],
     name: ["evening", "mouth"],
     psychopath: ["forehead", "hair", "spoon", "box", "treasure"],
-    splinter: ["turtle shell", "mustache", "head"],
+    splinter: ["turtle-shell", "mustache", "head"],
 
 //Level 51 - 60
-    stomach: ["rice paddy", "moon"],
+    stomach: ["rice-paddy", "moon"],
     frostbite: ["dirt", "legs", "winter"],
     tall: ["lid", "mouth", "mustache"],
-    doubt: ["spoon", "mama", "arrow", "coat rack"],
+    doubt: ["spoon", "mama", "arrow", "coat-rack"],
     concave: [],
     convex: [],
     below: ["ground", "toe"],
