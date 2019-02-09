@@ -31,7 +31,7 @@ subradicalInfo: {
     // Level 11 - 20
     
 
-//Level 41 - 50
+    // Level 41 - 50
     cactus: [],
     signpost: ["winter"],
     bone: ["mustache", "forehead", "moon"],
@@ -60,7 +60,7 @@ subradicalInfo: {
     psychopath: ["forehead", "hair", "spoon", "box", "treasure"],
     splinter: ["turtle-shell", "mustache", "head"],
 
-//Level 51 - 60
+    // Level 51 - 60
     stomach: ["rice-paddy", "moon"],
     frostbite: ["dirt", "legs", "winter"],
     tall: ["lid", "mouth", "mustache"],
@@ -68,8 +68,6 @@ subradicalInfo: {
     concave: [],
     convex: [],
     below: ["ground", "toe"],
-    courage: ["mama", "man"],
-
-
+    courage: ["mama", "man"]
 }};
 

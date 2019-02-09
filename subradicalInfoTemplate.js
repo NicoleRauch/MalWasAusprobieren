@@ -1,5 +1,5 @@
 const x = {
-    //Level 11 - 20
+    // Level 2 - 10
     "book": [],
     "bow": [],
     "child": [],
@@ -202,6 +202,8 @@ const x = {
     "stairs": [],
     "tombstone": [],
     "turkey": [],
+
+    //Level 11 - 20
     "bear": [],
     "blackjack": [],
     "drunkard": [],
