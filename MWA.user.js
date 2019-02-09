@@ -21,7 +21,6 @@
     drop: [],
     enter: [],
     fins: {
-      name: "Fins",
       symbol: "ハ",
       subradicals: []
     },
@@ -47,12 +46,10 @@
     // Level 2
     // Level 3
     towel: {
-      name: "Towel",
       symbol: "巾",
       subradicals: []
     },
     winter: {
-      name: "Winter",
       symbol: "夂",
       subradicals: []
     },
@@ -79,7 +76,6 @@
     fat: ["big", "drop"],
     favor: ["cross", "rice-paddy", "heart"],
     penguin: {
-      name: "Penguin",
       symbol: "敝",
       subradicals: ["fins", "towel", "winter"]
     },
@@ -115,6 +111,14 @@
     showSubRadicals(allRadicals[radicalName]);
   }
 
+  function capitalizeFirstLetter(string) {
+      return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+
+  function toName(slug) {
+      return slug.split("-").map(capitalizeFirstLetter).join(" ");
+  }
+
   function showSubRadicals(radical) {
     console.log("showSubRadicals", radical)
     if(!radical || !radical.subradicals || radical.subradicals.length === 0) {
@@ -127,14 +131,14 @@
       + '<ul class="single-character-grid">';
 
     var radicalHTML = radical.subradicals.map(function(subradical, idx){
-      console.log("subradical " + subradical);
+      console.log("subradical ", subradical, toName(subradical));
       return (
         '<li class="radical-' + idx + ' character-item">'
         + '<span lang="ja" class="item-badge"></span>'
         + '<a href="/radicals/' + subradical + '">'
           + '<span class="character" lang="ja">' + allRadicals[subradical].symbol + '</span>'
           + '<ul>'
-            + '<li>' + allRadicals[subradical].name + '</li>'
+            + '<li>' + toName(subradical) + '</li>'
           + '</ul>'
         + '</a>'
         + '</li>'
