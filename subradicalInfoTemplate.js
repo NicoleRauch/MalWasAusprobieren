@@ -1,5 +1,5 @@
 const x = {
-    //Level 11
+    //Level 11 - 20
     "book": [],
     "bow": [],
     "child": [],
@@ -293,6 +293,8 @@ const x = {
     "mole": [],
     "mona-lisa": [],
     "righteousness": [],
+    
+    //Level 21-30
     "angle": [],
     "blade": [],
     "half": [],
@@ -360,6 +362,8 @@ const x = {
     "oversee": [],
     "pirate": [],
     "turtle-shell": [],
+    
+    //Level 31-40
     "bully": [],
     "fang": [],
     "guy": [],
