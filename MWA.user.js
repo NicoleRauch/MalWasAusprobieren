@@ -122,26 +122,25 @@
     }
 
     console.log("append")
-    var sectionStartHTML = '<section class="wk_keisei">'
+    var sectionStartHTML = '<section>'
       + '<h2>Contained Radicals</h2>'
-      + '<div class="keisei_phonetic_grid"'
-      + '<ul class="keisei_phongrid_header single_character_grid">';
+      + '<ul class="single-character-grid">';
 
     var radicalHTML = radical.subradicals.map(function(subradical, idx){
       console.log("subradical " + subradical);
       return (
-        '<li id="radical_"' + idx + '" class="character-item">'
-        + '<span lang="ja" data-kanji=""></span>'
-        + '<a class="keisei_kanji_link" href="/allRadicals/' + subradical + '">'
+        '<li class="radical-' + idx + ' character-item">'
+        + '<span lang="ja" class="item-badge"></span>'
+        + '<a href="/radicals/' + subradical + '">'
           + '<span class="character" lang="ja">' + allRadicals[subradical].symbol + '</span>'
           + '<ul>'
-            + '<li title="" class="ellipsis">' + allRadicals[subradical].name + '</li>'
+            + '<li>' + allRadicals[subradical].name + '</li>'
           + '</ul>'
         + '</a>'
         + '</li>'
       );
     }).join("");
-    var sectionEndHTML = "</ul></div></section>";
+    var sectionEndHTML = "</ul></section>";
 
     $("#information").parent().append(sectionStartHTML + radicalHTML + sectionEndHTML);
   }
