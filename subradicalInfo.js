@@ -1,6 +1,6 @@
 module.exports = {
 subradicalInfo: {
-    // Level 1 - 10
+    // Level 1
     barb: [],
     big: [],
     construction: [],
@@ -27,6 +27,42 @@ subradicalInfo: {
     tree: [],
     two: [],
     woman: [],
+    
+    // Level 2
+    "book": ["tree", "ground"],
+    "bow": [],
+    "child": ["barb", "ground"],
+    "cow": ["cross", "gun"],
+    "dirt": ["cross", "ground"],
+    "dog": ["big", "drop"],
+    "evening": ["prison", "drop"],
+    "eye": [],
+    "fire": ["person"],
+    "five": ["ground"],
+    "flag": [],
+    "hair": [],
+    "hand": ["barb", "slide"],
+    "head": [],
+    "heaven": ["two", "person", "big", "ground"],
+    "king": [],
+    "legs": [],
+    "middle": ["mouth", "stick"],
+    "moon": ["sun"],
+    "narwhal": ["slide", "ground"],
+    "private": [],
+    "rice-paddy": ["mouth", "cross"],
+    "small": ["barb", "fins"],
+    "stand": ["ground", "lid"],
+    "stone": ["leaf", "mouth"],
+    "stool": [],
+    "stop": ["toe", "ground"],
+    "street": ["barb", "ground"],
+    "sword": [],
+    "thousand": ["slide", "cross"],
+    "treasure": ["slide"],
+    "water": ["barb"],
+    "white": ["sun", "drop"],
+    "writing": ["lid"],
     
     // Level 11 - 20
     
