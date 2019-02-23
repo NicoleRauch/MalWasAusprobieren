@@ -63,6 +63,31 @@ subradicalInfo: {
     "water": ["barb"],
     "white": ["sun", "drop"],
     "writing": ["lid"],
+
+    // Level 3
+    "arrow": ["big", "gun"],
+    "canopy": ["lid"],
+    "direction": ["lid"],
+    "door": ["ground", "flag"],
+    "dry": ["two", "stick", "cross"],
+    "father": ["fins", "treasure"],
+    "fingers": [],
+    "fur": ["hair"],
+    "hat": [],
+    "heart": ["cow", "ground", "slide"],
+    "life": ["hat"],
+    "now": [],
+    "old": ["cross", "mouth"],
+    "origin": ["two", "legs"],
+    "poop": ["private"],
+    "spoon": [],
+    "task": ["head"],
+    "towel": ["head", "stick"],
+    "triceratops": [],
+    "winter": [],
+    
+    // Level 4
+    
     
     // Level 11 - 20
     
