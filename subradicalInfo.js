@@ -122,10 +122,38 @@ subradicalInfo: {
     "world": ["ground", "lion", "box"],
 
     // Level 5
-    
-    
+    "axe": [],
+    "blue": ["life", "moon"],
+    "coffin": ["ground", "slide"],
+    "color": ["bed", "prison"],
+    "feathers": ["cape", "ice"],
+    "go": ["loiter", "two", "street"],
+    "gold": ["hat", "king", "horns"],
+    "ice": ["drop"],
+    "key": ["gun"],
+    "kick": [],
+    "lantern": ["twenty"],
+    "lip-ring": ["mouth"],
+    "meat": ["person", "head"],
+    "meet": ["hat", "cloud", "private", "two"],
+    "mustache": ["mouth", "head"],
+    "rain": ["head"],
+    "run": ["dirt", "coat-rack"],
+    "say": ["mouth"],
+    "scooter": [],
+    "self": [],
+    "tsunami": ["drop"],
+    "twenty": ["cross"],
+    "viking": ["roof", "horns"],
+    "village": ["rice-paddy", "dirt"],
+    "west": ["pi", "mouth"],
+    "window": ["cross"],
+    "wolverine": [],
+
+    // Level 5
+
     // Level 11 - 20
-    
+
 
     // Level 41 - 50
     cactus: [],
