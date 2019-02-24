@@ -1,3 +1,6 @@
+// this script generates a list of radical slugs with an empty array. This is used as the template for filling in the data.
+// Should not be needed subsequently.
+
 var radicals = require("./api_radicals.json");
 var subradicalInfo = require("./subradicalInfo.js").subradicalInfo;
 var fs = require('fs');
