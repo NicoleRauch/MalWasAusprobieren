@@ -150,7 +150,28 @@ subradicalInfo: {
     "window": ["cross"],
     "wolverine": [],
 
-    // Level 5
+    // Level 6
+    "angel": ["cross"],
+    "animal": [],
+    "blood": ["plate", "drop"],
+    "boil": [],
+    "box": [],
+    "city": ["lid", "towel"],
+    "death": ["lid", "lion"],
+    "eat": ["hat", "white", "kick"],
+    "fortune": ["mouth", "toe"],
+    "grain": ["tree", "slide"],
+    "jet": ["tree"],
+    "knife": [],
+    "lack": ["person", "prison"],
+    "ladle": ["drop"],
+    "lion": [],
+    "long": ["key", "kick"],
+    "mama": [],
+    "neck": ["horns", "ground", "self"],
+    "sheep": ["horns"],
+    "tongue": ["mouth", "slide"],
+    "yakuza": ["ground", "evening"],
 
     // Level 11 - 20
 
