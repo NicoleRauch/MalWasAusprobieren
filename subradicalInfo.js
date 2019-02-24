@@ -87,6 +87,41 @@ subradicalInfo: {
     "winter": [],
     
     // Level 4
+    "alligator": ["umbrella"],
+    "bamboo": ["barb", "gun"],
+    "bed": [],
+    "beggar": ["gun", "prison"],
+    "branch": ["cross", "stool"],
+    "car": ["sun"],
+    "ceremony": ["drop"],
+    "cliff": [],
+    "ear": [],
+    "energy": ["gun"],
+    "flowers": ["ground"],
+    "foot": ["mouth"],
+    "forehead": [],
+    "horns": [],
+    "insect": ["private", "mouth"],
+    "leader": [],
+    "loiter": ["leader"],
+    "master": ["drop", "king"],
+    "measurement": ["drop", "barb", "ground"],
+    "not": [],
+    "pi": ["legs", "ground"],
+    "plate": [],
+    "red": ["legs", "fins", "dirt"],
+    "rice": ["tree", "horns"],
+    "roof": [],
+    "samurai": [],
+    "see": ["eye", "legs"],
+    "shellfish": ["eye", "fins"],
+    "spikes": ["ground"],
+    "spirit": [],
+    "thread": ["poop", "small"],
+    "umbrella": [],
+    "world": ["ground", "lion", "box"],
+
+    // Level 5
     
     
     // Level 11 - 20
